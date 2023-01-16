@@ -1,14 +1,55 @@
 body {
   font-family: sans-serif;
+  background-color: #a6915c;
 }
 
 section {
-  border: 10px solid gray;
+  /* border: 10px solid gray; */
   height: auto;
 }
 
 .container {
-  border: 10px solid gray;
+  /* border: 10px solid gray; */
   max-width: 700px;
   margin: auto;
+}
+
+header,
+h2 {
+  font-family: 'Abril Fatface', 'Merriweather', 'Work Sans', cursive, serif, sans-serif;
+  color: #222325;
+}
+
+hr {
+  border: 1px solid #825e5c;
+  border-radius: 5px;
+}
+
+a {
+  outline: none;
+  text-decoration: underline;
+  color: #292b2d;
+}
+
+a:link {
+  color: #292b2d;
+}
+
+a:visited {
+  color: ##e3ba8f;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #825e5c;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+
+a:active {
+  background: #825e5c;
+  color: #cdfeaa;
 }
