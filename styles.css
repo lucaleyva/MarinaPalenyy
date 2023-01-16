@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #a6915c;
+  background-color: #f1ede4;
 }
 
 section {
@@ -17,7 +17,7 @@ section {
 header,
 h2 {
   font-family: 'Abril Fatface', 'Merriweather', 'Work Sans', cursive, serif, sans-serif;
-  color: #222325;
+  color: #171614;
 }
 
 hr {
@@ -28,28 +28,28 @@ hr {
 a {
   outline: none;
   text-decoration: underline;
-  color: #292b2d;
+  color: #171614;
 }
 
 a:link {
-  color: #292b2d;
+  color: #754043;
 }
 
 a:visited {
-  color: ##e3ba8f;
+  color: #146843;
 }
 
 a:focus {
   border-bottom: 1px solid;
-  background: #825e5c;
+  background: #949891;
 }
 
 a:hover {
   border-bottom: 1px solid;
-  background: #cdfeaa;
+  background: #d2c2bc;
 }
 
 a:active {
-  background: #825e5c;
-  color: #cdfeaa;
+  background: #946c6c;
+  color: #37423d;
 }
