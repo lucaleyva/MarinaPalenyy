@@ -59,16 +59,18 @@ a:visited {
   color: var(--dark-grey);
 }
 
-a:focus {
+/* a:focus {
   border-bottom: 1px solid;
   background: var(--grey);
-}
+  border-radius: 3px;
+} */
 
 a:hover {
   border-bottom: 1px solid;
   background: var(--light-grey);
+  border-radius: 3px;
 }
 
-a:active {
+/* a:active {
   background: var(--light-grey);
-}
+} */
