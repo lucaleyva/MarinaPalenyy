@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   background-color: var(--white);
   line-height: 1.6;
 }
@@ -33,7 +33,6 @@ section {
 
 header,
 h2 {
-  font-family: "Abril Fatface", "Merriweather", "Work Sans", cursive, serif, sans-serif;
   color: var(--black);
 }
 
