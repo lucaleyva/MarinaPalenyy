@@ -20,42 +20,52 @@ body {
   font-family: "Cormorant Garamond", serif;
   background-color: var(--white);
   line-height: 1.6;
-  margin: 0; /* Reset default margin */
-  padding: 0; /* Reset default padding */
 }
 
-/* Mobile-first approach */
+section {
+  height: auto;
+}
+
 .container {
-  width: 100%; /* Full width on small screens */
-  max-width: 700px; /* Limit width on larger screens */
+  max-width: 700px;
   margin: auto;
-  padding: 0 20px; /* Add some space on the sides */
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header,
-h1,
 h2 {
   color: var(--black);
-  text-align: center; /* Center align headings */
-  margin: 20px 0; /* Add some spacing */
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
 }
 
 hr {
   border: 1px solid var(--black);
   border-radius: 5px;
+  width: 100%;
 }
 
 a {
   outline: none;
-  text-decoration: none; /* Remove default underline */
+  text-decoration: underline;
   cursor: pointer;
   color: var(--black);
-  transition: background-color 0.3s, border-bottom-color 0.3s; /* Smooth transition effect */
+  transition: background-color 0.3s, border-bottom-color 0.3s;
+}
+
+a:visited {
+  color: var(--dark-grey);
 }
 
 a:hover {
-  background-color: var(--light-grey);
-  border-bottom: 1px solid var(--dark-grey);
+  border-bottom: 1px solid;
+  background: var(--light-grey);
   border-radius: 3px;
 }
 
@@ -64,29 +74,17 @@ a:hover {
   width: 0.75em;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
   background: var(--off-white);
 }
 
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--grey);
 }
 
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--dark-grey);
-}
-
-/* Media query for larger screens */
-@media (min-width: 768px) {
-  body {
-    padding: 0; /* Reset padding on larger screens */
-  }
-
-  .container {
-    padding: 0; /* Reset padding on larger screens */
-  }
-
-  section {
-    padding: 40px 0; /* Add more spacing */
-  }
 }
