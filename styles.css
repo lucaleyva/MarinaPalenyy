@@ -51,6 +51,11 @@ hr {
   width: 100%;
 }
 
+small {
+  display: block;
+  margin-left: 20px; /* Adjust the value as needed */
+}
+
 a {
   outline: none;
   text-decoration: underline;
@@ -88,3 +93,4 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--dark-grey);
 }
+
